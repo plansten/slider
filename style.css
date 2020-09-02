@@ -20,7 +20,7 @@
 }
 
 .slider__monitor{
-    overflow: hidden;
+    //overflow: hidden;
     height: 162px;
     width: 810px;
     position: relative;
