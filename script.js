@@ -23,7 +23,7 @@ parentDiv.insertBefore(elem, elem);
 
 function moveleft(){
     ourstep=ourstep-step;
-    oursteps=oursteps+step;
+    //oursteps=oursteps+step;
     console.log(ourstep);
     //if(ourstep == -2430){ourstep=-1620}
 
@@ -34,9 +34,9 @@ function moveleft(){
     //s1.style.transform = `translateX(2430px)`;
     
     track.style.transform = `translateX(${ourstep}px)`;
-    s1.style.transform = `translateX(${oursteps}px)`;
-    s2.style.transform = `translateX(${oursteps}px)`;
-    s3.style.transform = `translateX(${oursteps}px)`;    
+    //s1.style.transform = `translateX(${oursteps}px)`;
+    //2.style.transform = `translateX(${oursteps}px)`;
+    //s3.style.transform = `translateX(${oursteps}px)`;    
     //addafter();
     //addafter();
     //addafter();
@@ -49,14 +49,14 @@ function moveright(){
     ourstepss=ourstepss-step;
     console.log(ourstep);
     //if(ourstep == 810){ourstep=0}
-    s1.style.transform = `translateX(${oursteps}px)`;
-    s2.style.transform = `translateX(${oursteps}px)`;
-    s3.style.transform = `translateX(${oursteps}px)`; 
+    //s1.style.transform = `translateX(${oursteps}px)`;
+    //s2.style.transform = `translateX(${oursteps}px)`;
+    //s3.style.transform = `translateX(${oursteps}px)`; 
     track.style.transform = `translateX(${ourstep}px)`;
     //s1.style.transform = `translateX(-2430px)`;
-    s9.style.transform = `translateX(${ourstepss}px)`;
-    s8.style.transform = `translateX(${ourstepss}px)`;
-    s7.style.transform = `translateX(${ourstepss}px)`; 
+    //s9.style.transform = `translateX(${ourstepss}px)`;
+    //s8.style.transform = `translateX(${ourstepss}px)`;
+    //s7.style.transform = `translateX(${ourstepss}px)`; 
     //addbefore();
     //addbefore();
     //addbefore();
