@@ -90,7 +90,6 @@
 @media (max-width: 1024px) {
     .slider{
         width: 750px;
-        //min-width: 750px;
     }
 
     .slider__monitor{
