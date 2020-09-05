@@ -2,17 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>slider</title>    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
      
       <div class="slider">
-        <button class="slider__arrow prev" onclick="moveright()"><span></span>&#5176;</button>
+        <button class="slider__arrow prev" onclick="moveItem('left')"><span></span>&#5176;</button>
           <div class="slider__monitor">
         
-          <div class="slider__track" id="slider__track">
+          <div class="slider__track">
             <div class="slider__item" id="s1">
             <img class="photo" src="http://placehold.it/300x200?text=1">
           </div>
@@ -43,7 +43,7 @@
         </div>
           
         </div>
-        <button class="slider__arrow next" onclick="moveleft()"><span></span>&#5171;</button>
+        <button class="slider__arrow next" onclick="moveItem('right')"><span></span>&#5171;</button>
         <button class="dott first" onclick="dott1()"></button>
         <button class="dott second" onclick="dott2()"></button>
         <button class="dott third" onclick="dott3()"></button> 
